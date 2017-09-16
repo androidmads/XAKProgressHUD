@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:gravity="center_horizontal">
+
+      <Button android:text="Indeterminate"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn1"/>
+
+      <Button android:text="With Label"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn2"/>
+
+      <Button android:text="With Label and Detail"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn3"/>
+
+      <Button android:text="Determinate"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn4"/>
+
+      <Button android:text="Custom View"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn5"/>
+
+      <Button android:text="Dim Background"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn6"/>
+
+      <Button android:text="Custom color and Speed"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:id="@+id/btn7"/>
+
+</LinearLayout>
