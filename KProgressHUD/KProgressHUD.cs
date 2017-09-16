@@ -104,7 +104,7 @@ namespace KProgressHUD
             return this;
         }
 
-        public KProgressHUD setAnimationSpeed(int scale)
+        public KProgressHUD SetAnimationSpeed(int scale)
         {
             mAnimateSpeed = scale;
             return this;

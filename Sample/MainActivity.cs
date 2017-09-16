@@ -44,7 +44,6 @@ namespace Sample
         private void btn3Clicked(object sender, EventArgs e)
         {
             hud = KK.Create(this)
-
                 .SetLabel("Please wait...")
                 .SetDetailsLabel("File Downloading...");
             hud.Show();
@@ -54,7 +53,6 @@ namespace Sample
         private void btn4Clicked(object sender, EventArgs e)
         {
             hud = KK.Create(this)
-
               .SetGraceTime(1000);
             hud.Show();
             ScheduleDismiss();
@@ -82,7 +80,7 @@ namespace Sample
         {
             hud = KK.Create(this)
                 .SetWindowColor(Resources.GetColor(Resource.Color.my_gray))
-                .setAnimationSpeed(2);
+                .SetAnimationSpeed(2);
             hud.Show();
             ScheduleDismiss();
         }

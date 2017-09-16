@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>KProgressHUD</id>
+    <version>1.0.0</version>
+    <authors>Mushtaq</authors>
+    <owners>Mushtaq</owners>
+    <licenseUrl>https://github.com/androidmads/XAKProgressHUD/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/androidmads/XAKProgressHUD/</projectUrl>
+    <iconUrl>https://lh3.googleusercontent.com/-8awtMI1rwkE/V2VAjxHDxCI/AAAAAAAAAG4/LVNkDQHM4A4GXlWVxAWV_h9WcGnrZ1qMACEw/w140-h140-p/ic_launcher.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An implement of KProgressHUD for Xamarin Android, similar to KProgressHUD for Java Android</description>
+    <releaseNotes>An implement of KProgressHUD for Xamarin Android, similar to KProgressHUD for Java Android.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>KProgressHUD iOSLoader Xamarin.Android</tags>
+  </metadata>
+  <files>
+    <file src="..\KProgressHUD\bin\Release\KProgressHUD.dll" target="lib\KProgressHUD.dll" />
+  </files>
+</package>
