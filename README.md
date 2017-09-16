@@ -47,7 +47,32 @@ KK hud = KK.Create(this)
            .SetCustomView(imageView);
 hud.Show();
 ```
+## Demo
+<table>
+  <tr>
+    <th>Indeterminate</th>
+    <th>With Label</th>
+    <th>With Label and Detail</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/androidmads/XAKProgressHUD/master/Sample/indeterminate.png" alt="Indeterminate" style="width:200px;height:228px;"></td>
+    <td><img src="https://raw.githubusercontent.com/androidmads/XAKProgressHUD/master/Sample/with_label.png" alt="With Label" style="width:200px;height:228px;"></td>
+    <td><img src="https://raw.githubusercontent.com/androidmads/XAKProgressHUD/master/Sample/with_label_details.png" alt="With Detail" style="width:200px;height:228px;"></td>
+  </tr>  
+  <tr>
+    <th>Custom View</th>
+    <th>Dim Background</th>
+    <th>Custom Color</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/androidmads/XAKProgressHUD/master/Sample/custom_view.png" alt="Custom View" style="width:200px;height:228px;"></td>
+    <td><img src="https://raw.githubusercontent.com/androidmads/XAKProgressHUD/master/Sample/dim_background.png" alt="Dim Background" style="width:200px;height:228px;"></td>
+    <td><img src="https://raw.githubusercontent.com/androidmads/XAKProgressHUD/master/Sample/custom_color.png" alt="With Detail" style="width:200px;height:228px;"></td>
+  </tr>  
+</table>
+
 For more details [click here](https://github.com/androidmads/XAKProgressHUD/blob/master/Sample/MainActivity.cs)
+
 ## License
 ```
 MIT License
