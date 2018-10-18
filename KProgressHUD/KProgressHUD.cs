@@ -65,6 +65,8 @@ namespace KProgressHUD
             {
                 case Style.Spin:
                     view = new SpinView(mContext);
+                    LinearLayout.LayoutParams layout = new LinearLayout.LayoutParams(10,10);
+                    view.LayoutParameters = layout;
                     break;
             }
             mProgressDialog.SetView(view);
