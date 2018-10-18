@@ -5,6 +5,7 @@ Install this plugin into your Xamarin.Android projects. You can download it from
 ```csharp
 Install-Package KProgressHUD -Version 1.0.0
 ```
+If the nuget is not compatible to your project, then you can download and include the directly from [here](https://github.com/androidmads/XAKProgressHUD/blob/master/dll/KProgressHUD.dll)
 ## How to use
 Declare the package like below and you can customize KProgressHUD like below
 ```csharp
